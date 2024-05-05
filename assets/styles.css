@@ -124,7 +124,8 @@ body {
 .form textarea {
     max-width: 100%;
     min-width: 100%;
-    min-height: 150px;
+    min-height: 120px;
+    max-height: 300px;
     margin-top: 20px;
     font-size: 16px;
     padding: 15px;
