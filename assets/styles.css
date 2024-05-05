@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    z-index: 2;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+
+}
+
+.container {
+    background-color: rgba(89, 89, 153, 0.74);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.projectHeader {
+    text-align: center;
+    color: rgb(239, 239, 241);
+    margin-top: 50px;
+    font-weight: 0;
+}
+
+.projectInfomation {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(239, 239, 241);
+}
+
+.form {
+    min-height: 500px;
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 2px;
+    padding: 10px 50px;
+    padding-bottom: 50px;
+}
+
+.form .mainLabel,
+.form input,
+.form select {
+    display: block;
+}
+
+.form .mainLabel {
+    color: rgb(238, 238, 239);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.form .mainLabel span {
+    color: rgb(228, 228, 228);
+    font-size: small;
+}
+
+.form .textInput {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(73, 80, 87);
+    padding: 20px;
+}
+
+.form select {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: rgb(73, 80, 87);
+    padding-left: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form select option {
+    color: rgb(73, 80, 87);
+}
+
+.form label {
+    cursor: pointer;
+}
+
+.form input[type="checkbox"],
+.form input[type="radio"] {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.form .flexBox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: rgb(238, 238, 239);
+}
+
+.form div {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(238, 238, 239);
+}
+
+.form textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.form button {
+    width: 100%;
+    font-size: 16px;
+    color: rgb(228, 228, 228);
+    background-color: rgb(55, 175, 101);
+    border: none;
+    height: 40px;
+    margin-top: 30px;
+}
+
+@media (max-width: 980px) {
+    .form {
+        width: 80%;
+        padding: 10px 5%;
+            padding-bottom: 50px;
+    }
+
+    .form .mainLabel {
+        font-size: 2vw;
+    }
+
+    .form .textInput {
+        font-size: 1.8vw;
+    }
+
+    .form select {
+        font-size: 1.8vw;
+    }
+
+    .form .flexBox {
+        font-size: 1.8vw;
+    }
+.form div {
+        font-size: 1.8vw;
+}
+}
