@@ -143,9 +143,9 @@ body {
 
 @media (max-width: 980px) {
     .form {
-        width: 80%;
+        width: 90%;
         padding: 10px 5%;
-            padding-bottom: 50px;
+        padding-bottom: 50px;
     }
 
     .form .mainLabel {
@@ -163,7 +163,13 @@ body {
     .form .flexBox {
         font-size: 1.8vw;
     }
-.form div {
+    .form div {
         font-size: 1.8vw;
-}
+    }
+    .projectHeader{
+        font-size: 3vw;
+    }
+    .projectInfomation{
+        font-size: 1.5vw;
+    }
 }
